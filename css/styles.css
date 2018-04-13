@@ -43,11 +43,11 @@ img {
   height: 50.4px;
 }
 
-/* .tipntrip-brand-name {
+.tipntrip {
   font-weight: 500;
-} */
+}
 
-.tipntrip-brand .tipntrip-brand-name {
+.tipntrip-brand .tipntrip {
   font-family: Rubik;
   font-size: 30.6px;
   font-style: normal;
