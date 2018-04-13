@@ -36,6 +36,7 @@ img {
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .tipntrip-brand-logo {
@@ -68,6 +69,8 @@ img {
   letter-spacing: normal;
   text-align: left;
   color: #232e4d;
+  margin-top: 20px;
+  margin-bottom: 15px;
 }
 
 .tipntrip-description {
@@ -80,11 +83,14 @@ img {
   letter-spacing: normal;
   text-align: left;
   color: #232e4d;
+  margin-top: 15px;
+  margin-bottom: 25px;
 }
 
 .tipntrip-appstore-link {
   width: 117.9px;
   height: 38.3px;
+  margin-top: 25px;
 }
 
 .tipntrip-footer {
