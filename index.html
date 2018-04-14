@@ -68,7 +68,6 @@
             }
 
             .tipntrip-content {
-              width: 708px;
               height: 100%;
               align-self: flex-start;
             }
@@ -101,6 +100,21 @@
               }
             }
 
+            @media (max-width: 1023px) {
+              .tipntrip-info {
+                flex-direction: column-reverse;
+                width: 280px;
+              }
+
+              .tipntrip-screens {
+                width: 280px;
+              }
+
+              .tipntrip-content {
+                width: 280px;
+              }
+            }
+
             .tipntrip-brand {
               display: flex;
               flex-wrap: nowrap;
@@ -109,52 +123,121 @@
               margin-bottom: 20px;
             }
 
-            .tipntrip-brand-logo {
-              width: 50.4px;
-              height: 50.4px;
+            @media (max-width: 1023px) {
+              .tipntrip-brand {
+                width: 144px;
+                margin: 0 auto;
+                margin-top: 27px;
+              }
+            }
+
+            @media (min-width: 1024px) {
+              .tipntrip-brand-logo {
+                width: 50.4px;
+                height: 50.4px;
+              }
+            }
+
+            @media (max-width: 1023px) {
+              .tipntrip-brand-logo {
+                width: 40.3px;
+                height: 40.3px;
+              }
             }
 
             .tipntrip {
               font-weight: 500;
             }
 
-            .tipntrip-brand .tipntrip {
-              font-family: Rubik;
-              font-size: 30.6px;
-              font-style: normal;
-              font-stretch: normal;
-              line-height: normal;
-              letter-spacing: -0.7px;
-              text-align: left;
-              color: #232e4d;
+            @media (min-width: 1024px) {
+              .tipntrip-brand .tipntrip {
+                font-family: Rubik;
+                font-size: 30.6px;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: -0.7px;
+                text-align: left;
+                color: #232e4d;
+              }
             }
 
-            .tipntrip-slogan {
-              font-family: Rubik;
-              font-size: 36px;
-              font-weight: normal;
-              font-style: normal;
-              font-stretch: normal;
-              line-height: 1.33;
-              letter-spacing: normal;
-              text-align: left;
-              color: #232e4d;
-              margin-top: 20px;
-              margin-bottom: 15px;
+            @media (max-width: 1023px) {
+              .tipntrip-brand .tipntrip {
+                font-family: Rubik;
+                font-size: 24.5px;
+                font-weight: 500;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: -0.6px;
+                text-align: left;
+                color: #232e4d;
+              }
             }
 
-            .tipntrip-description {
-              font-family: Rubik;
-              font-size: 20px;
-              font-weight: 300;
-              font-style: normal;
-              font-stretch: normal;
-              line-height: 1.4;
-              letter-spacing: normal;
-              text-align: left;
-              color: #232e4d;
-              margin-top: 15px;
-              margin-bottom: 25px;
+            @media (min-width: 1024px) {
+              .tipntrip-slogan {
+                font-family: Rubik;
+                font-size: 36px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: 1.33;
+                letter-spacing: normal;
+                text-align: left;
+                color: #232e4d;
+                margin-top: 20px;
+                margin-bottom: 15px;
+              }
+            }
+
+            @media (max-width: 1023px) {
+              .tipntrip-slogan {
+                font-family: Rubik;
+                font-size: 24px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: 1;
+                letter-spacing: normal;
+                text-align: center;
+                color: #232e4d;
+                margin-top: 20px;
+                margin-bottom: 15px;
+              }
+            }
+
+            @media (min-width: 1024px) {
+              .tipntrip-description {
+                font-family: Rubik;
+                font-size: 20px;
+                font-weight: 300;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: 1.4;
+                letter-spacing: normal;
+                text-align: left;
+                color: #232e4d;
+                margin-top: 15px;
+                margin-bottom: 25px;
+              }
+            }
+
+            @media (max-width: 1023px) {
+              .tipntrip-description {
+                font-family: Rubik;
+                font-size: 12px;
+                font-weight: 300;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: 1.5;
+                letter-spacing: normal;
+                text-align: center;
+                color: #232e4d;
+                margin-top: 15px;
+                margin-bottom: 15px;
+              }
             }
 
             .tipntrip-description p {
@@ -162,10 +245,27 @@
               margin-bottom: 0;
             }
 
-            .tipntrip-appstore-link {
-              width: 117.9px;
-              height: 38.3px;
-              margin-top: 25px;
+            @media (max-width: 1023px) {
+              .tipntrip-description-additional {
+                display: none
+              }
+            }
+
+            @media (min-width: 1024px) {
+              .tipntrip-appstore-link {
+                width: 117.9px;
+                height: 38.3px;
+                margin-top: 25px;
+              }
+            }
+
+            @media (max-width: 1023px) {
+              .tipntrip-appstore-link {
+                width: 117.9px;
+                margin: 0 auto;
+                height: 38.3px;
+                margin-top: 15px;
+              }
             }
 
             .tipntrip-footer {
@@ -206,7 +306,7 @@
         <div class="tipntrip-wrapper">
             <div class="tipntrip-info">
                 <div class="tipntrip-screens">
-                    <img src="images/screens_large.png">
+                    <img srcset="images/screens_small.png 320w, images/screens_large.png 1024w" src="images/screens_large.png" alt="Screenshots">
                 </div>
                 <div class="tipntrip-content">
                     <div class="tipntrip-brand">
@@ -217,12 +317,12 @@
                         Подсказки в путешествиях
                     </div>
                     <div class="tipntrip-description">
-                        <p>
+                        <p class="tipntrip-description-main">
                             Актуальные события, необычные места, вкусная еда и незабываемая
                             ночная жизнь — об этом в <span class="tipntrip">tip n trip</span> рассказывают настоящие
                             путешественники и местные жители городов по всему миру.
                         </p>
-                        <p>
+                        <p class="tipntrip-description-additional">
                             Жизнь полна приключений: узнавайте, путешествуйте и делитесь
                             полезными открытиями!
                         </p>
