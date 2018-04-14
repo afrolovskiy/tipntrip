@@ -65,17 +65,40 @@
               flex-wrap: nowrap;
               align-items: center;
               margin: 0 auto;
-              width: 1279px;
-            }
-
-            .tipntrip-screens {
-              width: 529px;
             }
 
             .tipntrip-content {
               width: 708px;
               height: 100%;
               align-self: flex-start;
+            }
+
+            @media (min-width: 1366px) {
+              .tipntrip-info {
+                width: 1279px;
+              }
+
+              .tipntrip-screens {
+                width: 529px;
+              }
+
+              .tipntrip-content {
+                width: 708px;
+              }
+            }
+
+            @media (min-width: 1024px) and (max-width: 1365px) {
+              .tipntrip-info {
+                width: 1024px;
+              }
+
+              .tipntrip-screens {
+                width: 529px;
+              }
+
+              .tipntrip-content {
+                width: 387px;
+              }
             }
 
             .tipntrip-brand {
