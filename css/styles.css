@@ -92,6 +92,11 @@ img {
   margin-bottom: 25px;
 }
 
+.tipntrip-description p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .tipntrip-appstore-link {
   width: 117.9px;
   height: 38.3px;
