@@ -254,19 +254,43 @@
             }
 
             .tipntrip-footer ul{
-              list-style: none;
               display: flex;
+              list-style: none;
               justify-content: center;
               opacity: 0.6;
-              font-size: 14px;
-              letter-spacing: 0.3px;
               text-align: left;
+            }
+
+            @media (min-width: 1024px) {
+              .tipntrip-footer ul{
+                font-size: 14px;
+                letter-spacing: 0.3px;
+              }
+            }
+
+            @media (max-width: 1023px) {
+              .tipntrip-footer ul{
+                font-size: 11px;
+                letter-spacing: 0.2px;
+              }
             }
 
             .tipntrip-footer ul li {
               float: left;
-              margin-left: 20px;
-              margin-right: 20px;
+            }
+
+            @media (min-width: 1024px) {
+              .tipntrip-footer ul li {
+                margin-left: 20px;
+                margin-right: 20px;
+              }
+            }
+
+            @media (max-width: 1023px) {
+              .tipntrip-footer ul li {
+                margin-left: 12px;
+                margin-right: 12px;
+              }
             }
         </style>
     </head>
