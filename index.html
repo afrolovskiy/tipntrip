@@ -16,14 +16,14 @@
         <meta property="og:title" content="Подсказки в путешествиях">
         <meta property="og:description" content="Актуальные события, необычные места, вкусная еда и незабываемая ночная жизнь — об этом в tip n trip рассказывают настоящие путешественники и местные жители городов по всему миру. Жизнь полна приключений: узнавайте, путешествуйте и делитесь полезными открытиями!">
         <meta property="og:url" content="https://www.w3schools.com">
-        <meta property="og:image" content="images/screens_large.png">
+        <meta property="og:image" content="images/screens.png">
 
         <!-- Twitter Card Meta Data -->
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:title" content="Подсказки в путешествиях">
         <meta name="twitter:description" content="Актуальные события, необычные места, вкусная еда и незабываемая ночная жизнь — об этом в tip n trip рассказывают настоящие путешественники и местные жители городов по всему миру. Жизнь полна приключений: узнавайте, путешествуйте и делитесь полезными открытиями!">
         <meta name="twitter:site" content="https://www.w3schools.com">
-        <meta name="twitter:image" content="images/screens_large.png">
+        <meta name="twitter:image" content="images/screens.png">
 
         <!-- Favicon -->
         <link rel="shortcut icon" href="images/logo.ico" type="image/x-icon">
@@ -37,6 +37,8 @@
 
         <style type="text/css">
             html, body {
+              height: 100%;
+              overflow: hidden;
               margin: 0;
               padding: 0;
               background-color: #f8faff;
@@ -54,13 +56,6 @@
             @media (max-height: 767px) and (min-width: 1024px), (max-height: 567px) and (max-width: 1023px) {
               html, body {
                 overflow: visible;
-              }
-            }
-
-            @media (min-height: 768px) and (min-width: 1024px), (min-height: 568px) and (max-width: 1023px) {
-              html, body {
-                height: 100%;
-                overflow: hidden;
               }
             }
 
@@ -112,6 +107,15 @@
                 flex-direction: column-reverse;
                 width: 280px;
               }
+            }
+
+            .tipntrip-screens {
+              display: block;
+              overflow: hidden;
+            }
+
+            .tipntrip-screens img {
+              width: 100%;
             }
 
             @media (min-width: 1366px) {
@@ -334,7 +338,7 @@
         <div class="tipntrip-wrapper">
             <div class="tipntrip-info">
                 <div class="tipntrip-screens">
-                    <img srcset="images/screens_small.png 320w, images/screens_large.png 1024w" src="images/screens_large.png" alt="Screenshots">
+                    <img src="images/screens.png" alt="Screenshots">
                 </div>
                 <div class="tipntrip-content">
                     <div class="tipntrip-brand">
