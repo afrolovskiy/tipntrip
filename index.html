@@ -49,6 +49,8 @@
               color: #232e4d;
               line-height: normal;
               letter-spacing: normal;
+              position: relative;
+              min-height: 100%;
             }
 
             img {
@@ -62,9 +64,10 @@
             }
 
             .tipntrip-wrapper {
+              display: flex;
+              align-items: center;
               position: relative;
               margin: 0 auto;
-              height: auto !important;
               height: 100%;
               min-height: 100%;
             }
@@ -261,6 +264,13 @@
               position: absolute;
               width: 100%;
               bottom: 0;
+            }
+
+            @media (max-width: 1023px) {
+              .tipntrip-footer {
+                height: 40px;
+                line-height: 40px;
+              }
             }
 
             .tipntrip-footer ul{
