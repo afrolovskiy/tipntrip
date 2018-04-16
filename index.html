@@ -38,8 +38,6 @@
         <style type="text/css">
             html, body {
               margin: 0;
-              height: 100%;
-              overflow: hidden;
               padding: 0;
               background-color: #f8faff;
               font-family: Rubik;
@@ -51,6 +49,19 @@
               letter-spacing: normal;
               position: relative;
               min-height: 100%;
+            }
+
+            @media (max-height: 767px) and (min-width: 1024px), (max-height: 567px) and (max-width: 1023px) {
+              html, body {
+                overflow: visible;
+              }
+            }
+
+            @media (min-height: 768px) and (min-width: 1024px), (min-height: 568px) and (max-width: 1023px) {
+              html, body {
+                height: 100%;
+                overflow: hidden;
+              }
             }
 
             img {
