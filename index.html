@@ -53,7 +53,7 @@
               min-height: 100%;
             }
 
-            @media (max-height: 648px) and (min-width: 1024px), (max-height: 640px) and (max-width: 1023px) {
+            @media (max-height: 648px) and (min-width: 1024px) {
               html, body {
                 overflow: visible;
                 height: auto;
@@ -63,6 +63,14 @@
             img {
               max-width: 100%;
               max-height: 100%;
+            }
+
+            @media (max-width: 1023px) {
+              img {
+                max-width: none;
+                max-height: none;
+                width: 100%;
+              }
             }
 
             a {
@@ -106,7 +114,7 @@
             @media (max-width: 1023px) {
               .tipntrip-info {
                 flex-direction: column-reverse;
-                width: 280px;
+                width: 87%;
               }
             }
 
@@ -133,7 +141,7 @@
 
             @media (max-width: 1023px) {
               .tipntrip-screens {
-                width: 280px;
+                width: 100%;
               }
             }
 
@@ -151,7 +159,8 @@
 
             @media (max-width: 1023px) {
               .tipntrip-content {
-                width: 280px;
+                width: 100%;
+                align-self: auto;
               }
             }
 
@@ -172,9 +181,9 @@
 
             @media (max-width: 1023px) {
               .tipntrip-brand {
-                width: 144px;
-                margin: 0 auto;
-                margin-top: 27px;
+                width: 70%;
+                margin-left: auto;
+                margin-right: auto;
               }
             }
 
@@ -187,8 +196,7 @@
 
             @media (max-width: 1023px) {
               .tipntrip-brand-logo {
-                width: 40.3px;
-                height: 40.3px;
+                width: 35%;
               }
             }
 
@@ -206,7 +214,7 @@
 
             @media (max-width: 1023px) {
               .tipntrip-brand .tipntrip {
-                font-size: 24.5px;
+                font-size: 9.2vw;
                 font-weight: 500;
                 letter-spacing: -0.6px;
                 text-align: left;
@@ -225,11 +233,11 @@
 
             @media (max-width: 1023px) {
               .tipntrip-slogan {
-                font-size: 24px;
+                font-size: 7.6vw;
                 line-height: 1;
                 text-align: center;
-                margin-top: 20px;
-                margin-bottom: 15px;
+                margin-top: 4%;
+                margin-bottom: 3%;
               }
             }
 
@@ -246,12 +254,12 @@
 
             @media (max-width: 1023px) {
               .tipntrip-description {
-                font-size: 12px;
+                font-size: 3.8vw;
                 font-weight: 300;
                 line-height: 1.5;
                 text-align: center;
-                margin-top: 15px;
-                margin-bottom: 15px;
+                margin-top: 3%;
+                margin-bottom: 3%;
               }
             }
 
@@ -276,10 +284,9 @@
 
             @media (max-width: 1023px) {
               .tipntrip-appstore-link {
-                width: 117.9px;
+                width: 35%;
                 margin: 0 auto;
-                height: 38.3px;
-                margin-top: 15px;
+                margin-top: 3%;
               }
             }
 
@@ -310,9 +317,7 @@
 
             @media (max-width: 1023px) {
               .tipntrip-footer ul{
-                height: 13px;
-                font-size: 11px;
-                letter-spacing: 0.2px;
+                font-size: 3.8vw;
               }
             }
 
@@ -347,12 +352,12 @@
                         <div class="tipntrip">tip n trip</div>
                     </div>
                     <div class="tipntrip-slogan">
-                        Подсказки в путешествиях
+                        Подсказки в&nbsp;путешествиях
                     </div>
                     <div class="tipntrip-description">
                         <p class="tipntrip-description-main">
                             Актуальные события, необычные места, вкусная еда и незабываемая
-                            ночная жизнь — об этом в <span class="tipntrip">tip n trip</span> рассказывают настоящие
+                            ночная жизнь — об этом в&nbsp;<span class="tipntrip">tip n trip</span> рассказывают настоящие
                             путешественники и местные жители городов по всему миру.
                         </p>
                         <p class="tipntrip-description-additional">
