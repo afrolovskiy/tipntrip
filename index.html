@@ -4,6 +4,7 @@
         <!-- Behavioral Meta Data -->
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- SEO Meta Data -->
         <title>tip n trip</title>
@@ -99,25 +100,6 @@
               align-self: flex-start;
             }
 
-            @media (min-width: 1366px) {
-              .tipntrip-info {
-                width: 1279px;
-              }
-            }
-
-            @media (min-width: 1024px) and (max-width: 1365px) {
-              .tipntrip-info {
-                width: 1024px;
-              }
-            }
-
-            @media (max-width: 1023px) {
-              .tipntrip-info {
-                flex-direction: column-reverse;
-                width: 87%;
-              }
-            }
-
             .tipntrip-screens {
               display: block;
               overflow: hidden;
@@ -125,43 +107,6 @@
 
             .tipntrip-screens img {
               width: 100%;
-            }
-
-            @media (min-width: 1366px) {
-              .tipntrip-screens {
-                width: 529px;
-              }
-            }
-
-            @media (min-width: 1024px) and (max-width: 1365px) {
-              .tipntrip-screens {
-                width: 529px;
-              }
-            }
-
-            @media (max-width: 1023px) {
-              .tipntrip-screens {
-                width: 100%;
-              }
-            }
-
-            @media (min-width: 1366px) {
-              .tipntrip-content {
-                width: 708px;
-              }
-            }
-
-            @media (min-width: 1024px) and (max-width: 1365px) {
-              .tipntrip-content {
-                width: 387px;
-              }
-            }
-
-            @media (max-width: 1023px) {
-              .tipntrip-content {
-                width: 100%;
-                align-self: auto;
-              }
             }
 
             .tipntrip-brand {
@@ -172,122 +117,13 @@
               margin-bottom: 20px;
             }
 
-            @media (min-width: 1024px) and (max-width: 1365px){
-              .tipntrip-brand {
-                padding-top: 27px;
-                margin-top: 0;
-              }
-            }
-
-            @media (max-width: 1023px) {
-              .tipntrip-brand {
-                width: 70%;
-                margin-left: auto;
-                margin-right: auto;
-              }
-            }
-
-            @media (min-width: 1024px) {
-              .tipntrip-brand-logo {
-                width: 50.4px;
-                height: 50.4px;
-              }
-            }
-
-            @media (max-width: 1023px) {
-              .tipntrip-brand-logo {
-                width: 35%;
-              }
-            }
-
             .tipntrip {
               font-weight: 500;
-            }
-
-            @media (min-width: 1024px) {
-              .tipntrip-brand .tipntrip {
-                font-size: 30.6px;
-                letter-spacing: -0.7px;
-                text-align: left;
-              }
-            }
-
-            @media (max-width: 1023px) {
-              .tipntrip-brand .tipntrip {
-                font-size: 9.2vw;
-                font-weight: 500;
-                letter-spacing: -0.6px;
-                text-align: left;
-              }
-            }
-
-            @media (min-width: 1024px) {
-              .tipntrip-slogan {
-                font-size: 36px;
-                line-height: 1.33;
-                text-align: left;
-                margin-top: 20px;
-                margin-bottom: 15px;
-              }
-            }
-
-            @media (max-width: 1023px) {
-              .tipntrip-slogan {
-                font-size: 7.6vw;
-                line-height: 1;
-                text-align: center;
-                margin-top: 4%;
-                margin-bottom: 3%;
-              }
-            }
-
-            @media (min-width: 1024px) {
-              .tipntrip-description {
-                font-size: 20px;
-                font-weight: 300;
-                line-height: 1.4;
-                text-align: left;
-                margin-top: 15px;
-                margin-bottom: 25px;
-              }
-            }
-
-            @media (max-width: 1023px) {
-              .tipntrip-description {
-                font-size: 3.8vw;
-                font-weight: 300;
-                line-height: 1.5;
-                text-align: center;
-                margin-top: 3%;
-                margin-bottom: 3%;
-              }
             }
 
             .tipntrip-description p {
               margin-top: 0;
               margin-bottom: 0;
-            }
-
-            @media (max-width: 1023px) {
-              .tipntrip-description-additional {
-                display: none
-              }
-            }
-
-            @media (min-width: 1024px) {
-              .tipntrip-appstore-link {
-                width: 117.9px;
-                height: 38.3px;
-                margin-top: 25px;
-              }
-            }
-
-            @media (max-width: 1023px) {
-              .tipntrip-appstore-link {
-                width: 35%;
-                margin: 0 auto;
-                margin-top: 3%;
-              }
             }
 
             .tipntrip-footer {
@@ -307,25 +143,70 @@
               padding: 0;
             }
 
+            .tipntrip-footer ul li {
+              float: left;
+            }
+
+            @media (min-width: 1366px) {
+              .tipntrip-info {
+                width: 1279px;
+              }
+              .tipntrip-screens {
+                width: 529px;
+              }
+              .tipntrip-content {
+                width: 708px;
+              }
+            }
+
             @media (min-width: 1024px) {
+              .tipntrip-info {
+                width: 1024px;
+              }
+              .tipntrip-screens {
+                width: 529px;
+              }
+              .tipntrip-content {
+                width: 387px;
+              }
+              .tipntrip-brand {
+                padding-top: 27px;
+                margin-top: 0;
+              }
+              .tipntrip-brand-logo {
+                width: 50.4px;
+                height: 50.4px;
+              }
+              .tipntrip-brand .tipntrip {
+                font-size: 30.6px;
+                letter-spacing: -0.7px;
+                text-align: left;
+              }
+              .tipntrip-slogan {
+                font-size: 36px;
+                line-height: 1.33;
+                text-align: left;
+                margin-top: 20px;
+                margin-bottom: 15px;
+              }
+              .tipntrip-description {
+                font-size: 20px;
+                font-weight: 300;
+                line-height: 1.4;
+                text-align: left;
+                margin-top: 15px;
+                margin-bottom: 25px;
+              }
+              .tipntrip-appstore-link {
+                width: 117.9px;
+                height: 38.3px;
+                margin-top: 25px;
+              }
               .tipntrip-footer ul{
                 height: 17px;
                 font-size: 14px;
                 letter-spacing: 0.3px;
               }
-            }
-
-            @media (max-width: 1023px) {
-              .tipntrip-footer ul{
-                font-size: 3.8vw;
-              }
-            }
-
-            .tipntrip-footer ul li {
-              float: left;
-            }
-
-            @media (min-width: 1024px) {
               .tipntrip-footer ul li {
                 margin-left: 20px;
                 margin-right: 20px;
@@ -333,6 +214,57 @@
             }
 
             @media (max-width: 1023px) {
+              .tipntrip-info {
+                flex-direction: column-reverse;
+                width: 87%;
+              }
+              .tipntrip-screens {
+                width: 100%;
+              }
+              .tipntrip-content {
+                width: 100%;
+                align-self: auto;
+              }
+              .tipntrip-brand {
+                width: 70%;
+                margin-left: auto;
+                margin-right: auto;
+              }
+              .tipntrip-brand-logo {
+                width: 35%;
+              }
+              .tipntrip-brand .tipntrip {
+                font-size: 9.2vw;
+                font-weight: 500;
+                letter-spacing: -0.6px;
+                text-align: left;
+              }
+              .tipntrip-slogan {
+                font-size: 7.6vw;
+                line-height: 1;
+                text-align: center;
+                margin-top: 4%;
+                margin-bottom: 3%;
+              }
+              .tipntrip-description {
+                font-size: 3.8vw;
+                font-weight: 300;
+                line-height: 1.5;
+                text-align: center;
+                margin-top: 3%;
+                margin-bottom: 3%;
+              }
+              .tipntrip-description-additional {
+                display: none
+              }
+              .tipntrip-appstore-link {
+                width: 35%;
+                margin: 0 auto;
+                margin-top: 3%;
+              }
+              .tipntrip-footer ul{
+                font-size: 3.8vw;
+              }
               .tipntrip-footer ul li {
                 margin-left: 10px;
                 margin-right: 10px;
