@@ -94,10 +94,6 @@
 
             .tipntrip-screens {
               display: block;
-              /*overflow: hidden;
-              background-image: url(images/screens.png);
-              background-repeat: no-repeat;
-              background-size: contain;*/
             }
 
             .tipntrip-brand {
@@ -148,6 +144,7 @@
                 flex-direction: column-reverse;
                 align-self: flex-start;
                 width: 87%;
+                max-width: 600px;
               }
               .tipntrip-content {
                 width: 100%;
@@ -202,6 +199,24 @@
               }
             }
 
+            @media (min-width: 600px) {
+              .tipntrip-brand .tipntrip {
+                font-size: 55px;
+              }
+              .tipntrip-slogan {
+                font-size: 46px;
+              }
+              .tipntrip-description {
+                font-size: 25px;
+              }
+              .tipntrip-appstore-link {
+                width: 210px;
+              }
+              .tipntrip-footer ul{
+                font-size: 22.8px;
+              }
+            }
+
             @media (min-width: 1024px) {
               .tipntrip-info {
                 width: 1024px;
@@ -242,8 +257,7 @@
                 margin-top: 15px;
               }
               .tipntrip-appstore-link {
-                width: 117.9px;
-                height: 38.3px;
+                width: 150px;;
                 margin-top: 25px;
               }
               .tipntrip-footer ul{
@@ -284,7 +298,7 @@
                     <div class="tipntrip-description">
                         <p class="tipntrip-description-main">
                             Актуальные события, необычные места, вкусная еда и незабываемая
-                            ночная жизнь — об этом в&nbsp;<span class="tipntrip">tip n trip</span> рассказывают настоящие
+                            ночная жизнь&nbsp;— об этом в&nbsp;<span class="tipntrip">tip&nbsp;n&nbsp;trip</span> рассказывают настоящие
                             путешественники и местные жители городов по всему миру.
                         </p>
                         <p class="tipntrip-description-additional">
